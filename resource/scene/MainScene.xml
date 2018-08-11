@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout id="null" sceneSize="414,736" next="" previous="" eventSheet="MainSceneEventSheet" version="2.2">
   <layer index="0" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="1" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="2" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="3" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="4" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="5" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="6" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="1" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="2" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="3" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="4" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="5" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="6" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="7" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="8" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="9" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
@@ -15,6 +15,7 @@
   <layer index="12" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="13" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="14" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="15" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <item UID="148" plugin="AISprite" name="AISprite147" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="displayobject">
     <item name="name" value="AISprite147" valueDataType="string"/>
     <item name="uiGuid" value="148" valueDataType="string"/>
@@ -323,7 +324,7 @@
     <item name="name" value="AISprite221" valueDataType="string"/>
     <item name="uiGuid" value="222" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -342,7 +343,7 @@
     <item name="name" value="AISprite218" valueDataType="string"/>
     <item name="uiGuid" value="219" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -361,7 +362,7 @@
     <item name="name" value="AISprite215" valueDataType="string"/>
     <item name="uiGuid" value="216" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -380,7 +381,7 @@
     <item name="name" value="AISprite371" valueDataType="string"/>
     <item name="uiGuid" value="372" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -399,7 +400,7 @@
     <item name="name" value="AISprite374" valueDataType="string"/>
     <item name="uiGuid" value="375" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -437,7 +438,7 @@
     <item name="name" value="AISprite244" valueDataType="string"/>
     <item name="uiGuid" value="245" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -456,7 +457,7 @@
     <item name="name" value="AISprite241" valueDataType="string"/>
     <item name="uiGuid" value="242" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -475,7 +476,7 @@
     <item name="name" value="AISprite238" valueDataType="string"/>
     <item name="uiGuid" value="239" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -494,7 +495,7 @@
     <item name="name" value="AISprite247" valueDataType="string"/>
     <item name="uiGuid" value="248" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -513,7 +514,7 @@
     <item name="name" value="AISprite383" valueDataType="string"/>
     <item name="uiGuid" value="384" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -532,7 +533,7 @@
     <item name="name" value="AISprite386" valueDataType="string"/>
     <item name="uiGuid" value="387" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -551,7 +552,7 @@
     <item name="name" value="AISprite389" valueDataType="string"/>
     <item name="uiGuid" value="390" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -570,7 +571,7 @@
     <item name="name" value="AISprite392" valueDataType="string"/>
     <item name="uiGuid" value="393" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -589,7 +590,7 @@
     <item name="name" value="AISprite395" valueDataType="string"/>
     <item name="uiGuid" value="396" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -627,7 +628,7 @@
     <item name="name" value="AISprite212" valueDataType="string"/>
     <item name="uiGuid" value="213" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -646,7 +647,7 @@
     <item name="name" value="AISprite209" valueDataType="string"/>
     <item name="uiGuid" value="210" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -665,7 +666,7 @@
     <item name="name" value="AISprite206" valueDataType="string"/>
     <item name="uiGuid" value="207" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -684,7 +685,7 @@
     <item name="name" value="AISprite203" valueDataType="string"/>
     <item name="uiGuid" value="204" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -703,7 +704,7 @@
     <item name="name" value="AISprite200" valueDataType="string"/>
     <item name="uiGuid" value="201" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -722,7 +723,7 @@
     <item name="name" value="AISprite413" valueDataType="string"/>
     <item name="uiGuid" value="414" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -741,7 +742,7 @@
     <item name="name" value="AISprite416" valueDataType="string"/>
     <item name="uiGuid" value="417" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -760,7 +761,7 @@
     <item name="name" value="AISprite419" valueDataType="string"/>
     <item name="uiGuid" value="420" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -779,7 +780,7 @@
     <item name="name" value="AISprite422" valueDataType="string"/>
     <item name="uiGuid" value="423" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -798,7 +799,7 @@
     <item name="name" value="AISprite425" valueDataType="string"/>
     <item name="uiGuid" value="426" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -817,7 +818,7 @@
     <item name="name" value="AISprite428" valueDataType="string"/>
     <item name="uiGuid" value="429" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -836,7 +837,7 @@
     <item name="name" value="AISprite492" valueDataType="string"/>
     <item name="uiGuid" value="493" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -855,7 +856,7 @@
     <item name="name" value="AISprite286" valueDataType="string"/>
     <item name="uiGuid" value="287" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -874,7 +875,7 @@
     <item name="name" value="AISprite292" valueDataType="string"/>
     <item name="uiGuid" value="293" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -893,7 +894,7 @@
     <item name="name" value="AISprite289" valueDataType="string"/>
     <item name="uiGuid" value="290" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -912,7 +913,7 @@
     <item name="name" value="AISprite295" valueDataType="string"/>
     <item name="uiGuid" value="296" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -931,7 +932,7 @@
     <item name="name" value="AISprite452" valueDataType="string"/>
     <item name="uiGuid" value="453" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -950,7 +951,7 @@
     <item name="name" value="AISprite455" valueDataType="string"/>
     <item name="uiGuid" value="456" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -969,7 +970,7 @@
     <item name="name" value="AISprite458" valueDataType="string"/>
     <item name="uiGuid" value="459" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -988,7 +989,7 @@
     <item name="name" value="AISprite461" valueDataType="string"/>
     <item name="uiGuid" value="462" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -1007,7 +1008,7 @@
     <item name="name" value="AISprite464" valueDataType="string"/>
     <item name="uiGuid" value="465" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="100" valueDataType="number"/>
     <item name="y" value="400" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
@@ -2968,5 +2969,38 @@
     <item name="collision" value="false" valueDataType="boolean"/>
     <item name="collisionData" value="0%2Fn0.00%7C45.00%2C45.00%7C45.00%2C45.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C45.00%2C45.00%7C45.00%2C45.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
     <item name="layer" value="14" valueDataType="number"/>
+  </item>
+  <item UID="498" plugin="AIButton" name="AIButton497" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="displayobject">
+    <item name="name" value="AIButton497" valueDataType="string"/>
+    <item name="uiGuid" value="498" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
+    <item name="x" value="75.5" valueDataType="number"/>
+    <item name="y" value="104" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="100" valueDataType="number"/>
+    <item name="height" value="50" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="upSkin" value="" valueDataType="string"/>
+    <item name="downSkin" value="" valueDataType="string"/>
+    <item name="disableSkin" value="" valueDataType="string"/>
+    <item name="text" value="SAVE" valueDataType="string"/>
+    <item name="fontFamily" value="Arial" valueDataType="string"/>
+    <item name="size" value="30" valueDataType="number"/>
+    <item name="textColor" value="3683637" valueDataType="number"/>
+    <item name="bold" value="false" valueDataType="boolean"/>
+    <item name="enableInput" value="false" valueDataType="boolean"/>
+    <item name="textAlign" value="center" valueDataType="string"/>
+    <item name="verticalAlign" value="middle" valueDataType="string"/>
+    <item name="maxChars" value="100" valueDataType="number"/>
+    <item name="italic" value="false" valueDataType="boolean"/>
+    <item name="displayAsPassword" value="false" valueDataType="boolean"/>
+    <item name="wordWrap" value="false" valueDataType="boolean"/>
+    <item name="enabled" value="true" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn0.00%7C50.00%2C100.00%7C50.00%2C100.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C50.00%2C100.00%7C50.00%2C100.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="15" valueDataType="number"/>
   </item>
 </layout>
