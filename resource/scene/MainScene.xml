@@ -2974,7 +2974,7 @@
     <item name="name" value="AIButton497" valueDataType="string"/>
     <item name="uiGuid" value="498" valueDataType="string"/>
     <item name="global" value="false" valueDataType="boolean"/>
-    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
     <item name="x" value="42" valueDataType="number"/>
     <item name="y" value="85.5" valueDataType="number"/>
     <item name="anchorX" value="0.5" valueDataType="number"/>
