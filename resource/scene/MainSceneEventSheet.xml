@@ -374,9 +374,6 @@
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton497"/>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton185"/>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite125">
       <item valueDataType="number" value="0" name="10"/>
@@ -1281,57 +1278,13 @@
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton467"/>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
-      <item valueDataType="string" value="init" name="10" variable="true"/>
-      <item valueDataType="any" value="1" name="9"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
-      <item valueDataType="number" value="0" name="10"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
-      <item valueDataType="number" value="0" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton470"/>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
-      <item valueDataType="number" value="0" name="10"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
-      <item valueDataType="string" value="init" name="10" variable="true"/>
-      <item valueDataType="any" value="1" name="9"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
-      <item valueDataType="number" value="0" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton473"/>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
-      <item valueDataType="number" value="0" name="10"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
-      <item valueDataType="string" value="init" name="10" variable="true"/>
-      <item valueDataType="any" value="1" name="9"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
-      <item valueDataType="number" value="0" name="10"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton300"/>
     <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite292">
       <item valueDataType="string" value="selected" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
@@ -1339,17 +1292,29 @@
     <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite289">
       <item valueDataType="string" value="selected" name="10" variable="true"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton306"/>
     <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite286">
       <item valueDataType="string" value="selected" name="10" variable="true"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton309"/>
     <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite295">
       <item valueDataType="string" value="selected" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
@@ -1437,6 +1402,94 @@
     <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite455">
       <item valueDataType="string" value="select" name="10" variable="true"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton479"/>
+    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite452">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite452">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite452">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite452">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite452">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton470"/>
+    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite461">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite458">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite464">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton473"/>
+    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite458">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite461">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite464">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton467"/>
+    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite464">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite461">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite458">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite455">
@@ -1459,28 +1512,62 @@
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton479"/>
-    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite452">
-      <item valueDataType="string" value="select" name="10" variable="true"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite452">
-      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
-      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
-      <item valueDataType="any" value="1" name="value"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite452">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite452">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite464">
       <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
       <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
       <item valueDataType="any" value="0" name="value"/>
     </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite452">
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite464">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite461">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite461">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite458">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite458">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
