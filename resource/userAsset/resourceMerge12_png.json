@@ -1,5 +1,5 @@
 {"file":"resourceMerge12_png.png","frames":{
-"Hair/hair8.png":{"x":1,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377},
-"Top/t8.png":{"x":452,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377},
-"Bottom/b5.png":{"x":903,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377},
-"Bottom/b1.png":{"x":1354,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377}}}
+"Top/v2top/t14.png":{"x":1,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377},
+"Top/t1.png":{"x":452,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377},
+"Bottom/b3.png":{"x":903,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377},
+"Hair/hair10.png":{"x":1354,"y":1,"w":450,"h":1377,"offX":0,"offY":0,"sourceW":450,"sourceH":1377}}}
