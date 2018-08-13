@@ -15,7 +15,7 @@
   <layer index="12" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="13" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <layer index="14" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
-  <layer index="15" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="15" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="false" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
   <item UID="148" plugin="AISprite" name="AISprite147" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="displayobject">
     <item name="name" value="AISprite147" valueDataType="string"/>
     <item name="uiGuid" value="148" valueDataType="string"/>
