@@ -213,6 +213,10 @@
       <item valueDataType="number" value="14" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="15" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton153"/>
