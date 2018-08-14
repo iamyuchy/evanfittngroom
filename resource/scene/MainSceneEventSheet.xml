@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eventSheets layout="MainScene" previous="" next="" version="2.2">
+  <item type="instance" UID="622"/>
+  <item type="instance" UID="614"/>
+  <item type="instance" UID="549"/>
+  <item type="instance" UID="655"/>
+  <item type="instance" UID="652"/>
   <item type="instance" UID="579"/>
   <item type="instance" UID="576"/>
-  <item type="instance" UID="549"/>
   <item type="instance" UID="490"/>
+  <item type="instance" UID="634"/>
+  <item type="instance" UID="631"/>
   <item type="instance" UID="609"/>
   <item type="instance" UID="606"/>
   <item type="instance" UID="603"/>
   <item type="instance" UID="600"/>
   <item type="instance" UID="597"/>
   <item type="instance" UID="435"/>
+  <item type="instance" UID="640"/>
   <item type="instance" UID="504"/>
   <item type="instance" UID="369"/>
   <item type="instance" UID="366"/>
@@ -52,6 +59,7 @@
   <item type="instance" UID="259"/>
   <item type="instance" UID="256"/>
   <item type="instance" UID="253"/>
+  <item type="instance" UID="620"/>
   <item type="instance" UID="510"/>
   <item type="instance" UID="381"/>
   <item type="instance" UID="378"/>
@@ -78,6 +86,9 @@
   <item type="instance" UID="166"/>
   <item type="instance" UID="163"/>
   <item type="instance" UID="154"/>
+  <item type="instance" UID="646">
+    <item initValue="0" variableType="number" variableName="select" type="variable"/>
+  </item>
   <item type="instance" UID="564">
     <item initValue="0" variableType="number" variableName="select" type="variable"/>
   </item>
@@ -120,6 +131,8 @@
   <item type="instance" UID="287">
     <item initValue="false" variableType="boolean" variableName="selected" type="variable"/>
   </item>
+  <item type="instance" UID="628"/>
+  <item type="instance" UID="625"/>
   <item type="instance" UID="594"/>
   <item type="instance" UID="591"/>
   <item type="instance" UID="588"/>
@@ -158,6 +171,10 @@
   <item type="instance" UID="219"/>
   <item type="instance" UID="222"/>
   <item type="instance" UID="123"/>
+  <item type="instance" UID="643">
+    <item initValue="0" variableType="number" variableName="select" type="variable"/>
+  </item>
+  <item type="instance" UID="637"/>
   <item type="instance" UID="501"/>
   <item type="instance" UID="360"/>
   <item type="instance" UID="357"/>
@@ -217,6 +234,10 @@
       <item valueDataType="number" value="15" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton153"/>
@@ -254,6 +275,10 @@
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
       <item valueDataType="number" value="15" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
   </item>
@@ -295,6 +320,10 @@
       <item valueDataType="number" value="15" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton165"/>
@@ -332,6 +361,10 @@
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
       <item valueDataType="number" value="15" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
   </item>
@@ -373,6 +406,10 @@
       <item valueDataType="number" value="15" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton171"/>
@@ -410,6 +447,10 @@
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
       <item valueDataType="number" value="15" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
   </item>
@@ -474,6 +515,36 @@
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton621"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="initcat" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="10" name="layer"/>
+      <item valueDataType="number" value="1" name="layerVisible"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton619"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="initcat" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
+      <item valueDataType="number" value="1" name="layerVisible"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="10" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton185"/>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite125">
       <item valueDataType="number" value="0" name="10"/>
@@ -531,6 +602,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -594,6 +671,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton197"/>
@@ -653,6 +736,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -716,6 +805,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton182"/>
@@ -775,6 +870,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -838,6 +939,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton449"/>
@@ -897,6 +1004,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -960,6 +1073,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton443"/>
@@ -1019,6 +1138,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1082,6 +1207,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton434"/>
@@ -1141,6 +1272,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1204,6 +1341,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton487"/>
@@ -1263,6 +1406,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1326,6 +1475,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton599"/>
@@ -1385,6 +1540,12 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1448,6 +1609,12 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton605"/>
@@ -1507,6 +1674,12 @@
       <item valueDataType="number" value="1" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1570,6 +1743,146 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="1" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton630"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite125">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite212">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite209">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite206">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite203">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite200">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite413">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite416">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite419">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite422">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite425">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite428">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite492">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite593">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite590">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite587">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite584">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton633"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite125">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite212">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite209">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite206">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite203">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite200">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite413">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite416">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite419">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite422">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite425">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite428">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite492">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite593">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite590">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite587">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite584">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton329"/>
@@ -1605,6 +1918,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1644,6 +1960,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton335"/>
@@ -1679,6 +1998,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1718,6 +2040,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton341"/>
@@ -1753,6 +2078,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1792,6 +2120,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton362"/>
@@ -1827,6 +2158,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -1866,6 +2200,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton368"/>
@@ -1903,6 +2240,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton503"/>
@@ -1938,6 +2278,49 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton639"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite128">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite324">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite321">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite318">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite315">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite312">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite359">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite356">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite353">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite500">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
       <item valueDataType="number" value="1" name="10"/>
     </item>
   </item>
@@ -2238,6 +2621,10 @@
       <item valueDataType="string" value="select" name="10" variable="true"/>
       <item valueDataType="any" value="0" name="11"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite645">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
     <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
       <item valueDataType="string" value="init" name="10" variable="true"/>
       <item valueDataType="any" value="1" name="9"/>
@@ -2253,6 +2640,10 @@
       <item valueDataType="any" value="0" name="11"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite464">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite645">
       <item valueDataType="string" value="select" name="10" variable="true"/>
       <item valueDataType="any" value="0" name="11"/>
     </item>
@@ -2278,6 +2669,10 @@
       <item valueDataType="string" value="select" name="10" variable="true"/>
       <item valueDataType="any" value="0" name="11"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite645">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite455">
@@ -2300,13 +2695,55 @@
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite464">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite554">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite554">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite554">
       <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
       <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
       <item valueDataType="any" value="0" name="value"/>
     </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite554">
       <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton654"/>
+    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite645">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite461">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite458">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="AISprite464">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite464">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
+      <item valueDataType="number" value="1" name="10"/>
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
@@ -2324,72 +2761,102 @@
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite554">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite461">
       <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
       <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
       <item valueDataType="any" value="1" name="value"/>
     </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite554">
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
       <item valueDataType="number" value="1" name="10"/>
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite554">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite645">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite645">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite645">
       <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
       <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
       <item valueDataType="any" value="0" name="value"/>
     </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite554">
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite645">
       <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite461">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite458">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite458">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton651"/>
+    <item type="action" persistent="false" callTarget="instance" callName="toogleBoolean" target="AISprite642">
+      <item valueDataType="string" value="select" name="10" variable="true"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite642">
+      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite642">
+      <item valueDataType="number" value="1" name="10"/>
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite464">
       <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
       <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
-      <item valueDataType="any" value="1" name="value"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite461">
-      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
-      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
-      <item valueDataType="any" value="1" name="value"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite461">
-      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
-      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
       <item valueDataType="any" value="0" name="value"/>
     </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite461">
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite464">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite458">
-      <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
-      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
-      <item valueDataType="any" value="1" name="value"/>
-    </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
-      <item valueDataType="number" value="1" name="10"/>
-    </item>
-  </item>
-  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
-    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite458">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite642">
       <item valueDataType="string" value="select" name="instanceVariable" variable="true"/>
       <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
       <item valueDataType="any" value="0" name="value"/>
     </item>
-    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite458">
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite642">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -2827,6 +3294,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton255"/>
@@ -2868,6 +3338,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -2913,6 +3386,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton261"/>
@@ -2954,6 +3430,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -2999,6 +3478,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton398"/>
@@ -3040,6 +3522,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -3085,6 +3570,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton404"/>
@@ -3126,6 +3614,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -3171,6 +3662,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton410"/>
@@ -3212,6 +3706,9 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
       <item valueDataType="number" value="0" name="10"/>
     </item>
   </item>
@@ -3257,6 +3754,9 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton524"/>
@@ -3298,6 +3798,55 @@
       <item valueDataType="number" value="0" name="10"/>
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="1" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonTapEvent" callName="onButtonTap" isTrigger="true" target="AIButton613"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="init" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite119">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite244">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite241">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite238">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite247">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite395">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite392">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite389">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite386">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite383">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite518">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite512">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite515">
       <item valueDataType="number" value="1" name="10"/>
     </item>
   </item>
@@ -3487,6 +4036,21 @@
     <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite581">
       <item valueDataType="number" value="0" name="10"/>
     </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite624">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite627">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite636">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite645">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setVisible" target="AISprite642">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
   </item>
   <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
     <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="System">
@@ -3524,6 +4088,10 @@
     </item>
     <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
       <item valueDataType="number" value="15" name="layer"/>
+      <item valueDataType="number" value="2" name="layerVisible"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setLayerVisible" target="System">
+      <item valueDataType="number" value="16" name="layer"/>
       <item valueDataType="number" value="2" name="layerVisible"/>
     </item>
   </item>
